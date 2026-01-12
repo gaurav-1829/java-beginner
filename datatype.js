@@ -1,35 +1,56 @@
-const n=123
-console.log(typeof n);
+// const n=123
+// console.log(typeof n);
 
-const str="hello world"
-console.log(typeof str);
+// const str="hello world"
+// console.log(typeof str);
 
-const loggedin=true
-console.log(typeof loggedin);
+// const loggedin=true
+// console.log(typeof loggedin);
 
-const data=null
-console.log(typeof data);
+// const data=null
+// console.log(typeof data);
 
-const undef=undefined
-console.log(typeof undef);
+// const undef=undefined
+// console.log(typeof undef);
 
-const bignum=1213124234234n
-console.log(typeof bignum);
+// const bignum=1213124234234n
+// console.log(typeof bignum);
 
-const sym=Symbol("123")
-console.log(typeof sym);
+// const sym=Symbol("123")
+// console.log(typeof sym);
 
-const obj={
+// const obj={
+//     name:"gaurav",
+//     age:22
+// }
+// console.log(typeof obj);
+
+// const myfun=function(){
+//     console.log("this is my function");
+// }
+
+// const arr=[1,2,3,4,5]
+// console.log(typeof arr);
+
+// console.log(typeof myfun);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//stack(primitive) and heap(non primitive)
+
+
+//stack(primitive)
+let a ="gaurav"
+let b=a
+b="gaurav pundir"
+console.log(a);
+console.log(b);
+
+//heap(non primitive)
+let user1={
     name:"gaurav",
     age:22
 }
-console.log(typeof obj);
-
-const myfun=function(){
-    console.log("this is my function");
-}
-
-const arr=[1,2,3,4,5]
-console.log(typeof arr);
-
-console.log(typeof myfun);
+let user2=user1
+user2.age=25
+console.log(user1);
+console.log(user2);
