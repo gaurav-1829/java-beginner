@@ -1,4 +1,4 @@
-const value=new Number(44)
+// const value=new Number(44)
 // console.log(value);
 
 // console.log(value.toString());
@@ -41,9 +41,9 @@ const value=new Number(44)
 
 // console.log(Math.floor(Math.random()*(max-min+1))+min);
 
-min=23
-max=35
+// min=23
+// max=35
 
-console.log(Math.floor(Math.random()*(max-min+1)+min));
+// console.log(Math.floor(Math.random()*(max-min+1)+min));
 
-console.log(Math.pow(2,4));
+// console.log(Math.pow(2,4));
