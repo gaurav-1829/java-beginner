@@ -15,12 +15,12 @@
 
 // console.log(mydate.toLocaleString())
 
-let mytime=Date.now();
+// let mytime=Date.now();
 
-console.log(Math.floor(mytime/1000));
+// console.log(Math.floor(mytime/1000));
 
-let mydate=new Date();
+// let mydate=new Date();
 
-console.log(mydate.getDate());
+// console.log(mydate.getDate());
 
-console.log(mydate.getMonth()+1);
+// console.log(mydate.getMonth()+1);
