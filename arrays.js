@@ -49,7 +49,7 @@
 
 // console.log(Array.from("gaurav"))
 // console.log(Array.isArray("gaurav"))
-console.log(Array.from({name:"gaurav"}))
+console.log(Array.from({name:"gaurav"})) //intersting
 
 // let score1=100
 // let score2=200
